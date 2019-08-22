@@ -10,14 +10,18 @@ $orange: #d28445 !default;
 $yellow: #f4bf75 !default;
 $green: #90a959 !default;
 $cyan: #75b5aa !default;
-$blue: #268bd2 !default;
+$blue: #1d6ba3 !default;
+$darkblue: #32526d !default;
+$pink: #e28ad6 !default;
 $brown: #8f5536 !default;
 
-$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+// $root-font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+$root-font-family: "Lato", sans-serif;
+$title-font-family: "Raleway", serif;
 $root-font-size: 1rem !default;
 $root-line-height: 1.5 !default;
 
-$body-color: $gray-5 !default;
+$body-color: #414141 !default;
 $body-muted: $gray-4 !default;
 $body-bg: #fff !default;
 $link-color: $blue !default;
@@ -41,8 +45,8 @@ $default-box-shadow: $box-shadow-size
                      $box-shadow-size
                      rgba(0, 0, 0, $box-shadow-opacity);
 
-$code-font-family: Menlo, Monaco, "Courier New", monospace !default;
-$code-color: #bf616a !default;
+$code-font-family: Hack, Ubuntu Mono, Menlo, Monaco, "Courier New", monospace !default;
+$code-color: $gray-6 !default;
 
 // Hyde theming
 $sidebar-bg-color: #202020 !default;
