@@ -35,6 +35,8 @@ article + *, .post-body ~ section {
 // h1-size h2
 h2.post-title, h2.page-title {
   font-size: 2rem;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 // Meta data line below post title
@@ -67,6 +69,7 @@ h2.post-title, h2.page-title {
 
   h3 {
     margin-top: 0;
+    text-transform: uppercase;
   }
 
   li {

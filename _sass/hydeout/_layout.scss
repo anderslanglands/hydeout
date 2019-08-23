@@ -43,6 +43,7 @@ body {
     font-family: $title-font-family;
     font-weight: normal;
     font-size: $large-font-size;
+    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: $heading-spacing;
 
@@ -91,6 +92,7 @@ body {
 
   h1, h2 {
     color: inherit;
+    text-transform: uppercase;
 
     &:last-child {
       margin-bottom: 0;
@@ -192,6 +194,7 @@ body {
       h1, h2 {
         font-family: $title-font-family;
         color: inherit;
+        text-transform: uppercase;
 
         &:last-child {
           margin-bottom: $heading-spacing;
@@ -200,7 +203,7 @@ body {
     }
 
     > * {
-      max-width: 48rem;
+      max-width: 40rem;
       padding: 0;
     }
   }
