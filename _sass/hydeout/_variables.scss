@@ -15,15 +15,16 @@ $darkblue: #32526d !default;
 $pink: #e28ad6 !default;
 $brown: #8f5536 !default;
 
-$root-font-family: "Lato", sans-serif;
-$title-font-family: "Montserrat", serif;
+$root-font-family: "Roboto", sans-serif;
+$title-font-family: "Raleway", serif;
 $root-font-size: 1rem !default;
-$root-line-height: 1.5 !default;
+$root-line-height: 1.6 !default;
 
 $body-color: $gray-5 !default;
 $body-muted: $gray-4 !default;
 $body-bg: #fff !default;
-$link-color: $brown !default;
+$link-color: $blue !default;
+$content-link-color: lighten($blue, 54%) !default;
 $heading-color: $gray-6 !default;
 
 $border-color: $gray-2 !default;

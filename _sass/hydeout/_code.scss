@@ -12,7 +12,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: $code-color;
-  background-color: #f3f1eb;
+  background-color: lighten($gray-2, 5%);
   border-radius: 3px;
 }
 

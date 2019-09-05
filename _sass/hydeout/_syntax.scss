@@ -1,7 +1,13 @@
 .highlight .hll { background-color: #f3f1eb; }
-.highlight .c { color: #939e53; } /* Comment */
-.highlight .c1 { color: #939e53; } /* Comment.Single */
-.highlight .cs { color: #939e53; } /* Comment.Special */
+// .highlight .c { color: #939e53; } /* Comment */
+// .highlight .c1 { color: #939e53; } /* Comment.Single */
+// .highlight .cs { color: #939e53; } /* Comment.Special */
+
+$syc-comment: #939e53;
+
+.highlight .c, .c1, .cs {
+    color: $syc-comment;
+}
 
 .highlight .k  { color: $gray-6; font-weight: 400; } /* Keyword */
 .highlight .kd { color: $gray-6; } /* Keyword.Declaration */
